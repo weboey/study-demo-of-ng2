@@ -19,7 +19,7 @@ export class AppComponent implements OnInit{
 
   }
 }
-setTimeout(function(){
+/*setTimeout(function(){
   const $input = <HTMLInputElement>document.querySelector(".todo-val");
   const $list = <HTMLUListElement> document.querySelector(".list-group");
   const $add =  document.querySelector(".button-add");
@@ -44,5 +44,5 @@ setTimeout(function(){
     .do(r=>console.log(r))
 
   app$.subscribe();
-},0)
+},0)*/
 

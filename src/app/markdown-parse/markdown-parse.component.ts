@@ -11,10 +11,10 @@ export class MarkdownParseComponent implements OnInit {
   constructor(private http: Http) { }
 
   ngOnInit() {
-    this.mdSource="<h1>this is a test</h1>";
-    console.log(window);
-    this.http.get("http://localhost:63342/learn-rxjs-ng2/README.md")
-      .subscribe(text=>{this.mdSource=window.marked(text._body); console.log(text)})
+   // this.mdSource="<h1>this is a test</h1>";
+    //console.log(window);
+    //this.http.get("http://localhost:63342/learn-rxjs-ng2/README.md")
+    //  .subscribe(text=>{this.mdSource=window.marked(text._body); console.log(text)})
     //.map(response=>{return response._body})
     //
   }
