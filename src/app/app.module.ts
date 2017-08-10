@@ -10,9 +10,12 @@ import { WebSocketComponent } from './http/web-socket/web-socket.component';
 import {WebSocketService} from "./http/web-socket.service";
 import {ProductService} from "./http/product/service/product.service";
 import { SearchComponent } from './http/product/search/search.component';
+import { MergeMapComponent } from './rxjs/mergeMap/merge-map.component';
+import { ForkJoinComponent } from './rxjs/forkJoin/fork-join.component';
 @NgModule({
   declarations: [
-    AppComponent,HighlightDirective, MarkdownParseComponent, ProductComponent, WebSocketComponent, SearchComponent
+    AppComponent,HighlightDirective, MarkdownParseComponent, ProductComponent, WebSocketComponent, SearchComponent,
+    MergeMapComponent,ForkJoinComponent
   ],
   imports: [
     BrowserModule,HttpModule,
